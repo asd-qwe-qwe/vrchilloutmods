@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from vrchilloutmods.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Jan 2026 09:11:41 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chillout Mod - Download Best Mods</title>
+    <link rel="icon" href="malmal.png" type="image/png">
+    
+    <!-- Open Graph / Discord Embed -->
+    <meta property="og:title" content="Chillout Mod Hub">
+    <meta property="og:description" content="Discover and download the best mods for Chillout.">
+    <meta property="og:image" content="mods1.jpg">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#6c5ce7">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Logo">
+                <span>ChillOut<span class="text-blue">Mods</span></span>
+            </a>
+            
+            <div class="online-status">
+                <span class="status-dot"></span>
+                <span id="online-counter">105</span> Online Users
+            </div>
+
+            <div class="nav-links">
+                <a href="#hero" class="active">Home</a>
+                <a href="#mods">Mods</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+            <a href="https://store.steampowered.com/app/661130/ChilloutVR/" target="_blank" class="btn-primary"><i class="fab fa-steam"></i> Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="container hero-container">
+            <div class="hero-left">
+                <h1>Unlock the Power<br>of <span class="text-blue">Chillout Mod</span></h1>
+                <p>Transform your VR experience with premium mods. Join <span class="text-blue">120,000+ users</span> worldwide in our growing community.</p>
+                
+                <div class="hero-actions">
+                    <a href="#mods" class="btn-primary large">Get Started</a>
+                    
+                </div>
+
+                <div class="hero-badges">
+                    <div class="badge-item">16 Premium Mods</div>
+                    <div class="badge-item">Active Community</div>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="glass-card">
+                    <div class="live-badge"><span class="dot"></span> LIVE NOW</div>
+                    <div class="card-logo">
+                        <img src="logo.png" alt="Chillout Logo">
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <strong>20K+</strong>
+                            <span>Users</span>
+                        </div>
+                        <div class="stat">
+                            <strong>16</strong>
+                            <span>Mods</span>
+                        </div>
+                    </div>
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3>20K+</h3>
+                <p>Users</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-cube"></i>
+                <h3>10+</h3>
+                <p>Premium Mods</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-download"></i>
+                <h3>54K+</h3>
+                <p>Downloads</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mod Loader Section -->
+    <section id="mod-loader" class="mod-loader-section">
+        <div class="container mod-loader-container">
+            <div class="loader-content">
+                <h2>Chillout Mod Launcher Required</h2>
+                <p>To install and manage these mods, you need the official Chillout Mod Launcher. Download it now to get started.</p>
+                <a href="#" id="loaderDownloadBtn" class="btn-primary large"><i class="fas fa-download"></i> Download Launcher</a>
+            </div>
+            <div class="loader-image">
+                <img src="logo.png" alt="Mod Launcher">
+            </div>
+        </div>
+    </section>
+
+    <!-- Mods Section -->
+    <section id="mods" class="mods-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Mods</h2>
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="Search for mods...">
+                    </div>
+                    <div class="filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="visual">Visual</button>
+                        <button class="filter-btn" data-filter="gameplay">Gameplay</button>
+                        <button class="filter-btn" data-filter="tools">Tools</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mods-grid" id="modsGrid">
+                <!-- Mod Cards will be inserted here by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Community Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="oyun1.jpg" alt="Gallery 1">
+                    <div class="gallery-overlay">
+                        <span>Immersive Worlds</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="oyun2.jpg" alt="Gallery 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="oyun3.jpg" alt="Gallery 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="mods1.jpg" alt="Gallery 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo" style="height: 30px;">
+                    <span>ModHub</span>
+                </div>
+                <p>Next generation social VR experience. Connect, create, and explore in a limitless world.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#">Mods</a>
+                <a href="#">Plugins</a>
+                <a href="#">Gallery</a>
+            </div>
+            <div class="footer-col">
+                <h4>Community</h4>
+                <a href="#">Discord</a>
+                <a href="#">Twitter</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ChilloutMods. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mod Details Modal -->
+    <div id="modModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle">Mod Title</h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modalImage" src="#" alt="Mod Image">
+                </div>
+                <div class="modal-info">
+                    <div class="modal-meta">
+                        <span class="badge-category" id="modalCategory">Visual</span>
+                        <span class="badge-downloads" id="modalDownloads">15K</span>
+                    </div>
+                    <p id="modalDescription" class="modal-desc">Description goes here...</p>
+                    
+                    <div class="modal-features">
+                        <h3>Key Features</h3>
+                        <ul id="modalFeatures">
+                            <!-- Features will be inserted here -->
+                        </ul>
+                    </div>
+
+                    <div class="modal-tags" id="modalTags">
+                        <!-- Tags inserted here -->
+                    </div>
+
+                    <div class="modal-footer-info">
+                        <div>Author: <span id="modalAuthor" class="text-blue">Author</span></div>
+                        <div>Date: <span id="modalDate">2025-01-01</span></div>
+                    </div>
+
+                    <a href="#" id="modalDownloadLink" class="btn-primary large" style="width: 100%; justify-content: center; margin-top: 1rem;">Download Mod</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"179cd87796034ee6a98682bcc92ce473","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from vrchilloutmods.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Jan 2026 09:11:43 GMT -->
+</html>
