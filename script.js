@@ -327,7 +327,7 @@ const modalDownloadLink = document.getElementById('modalDownloadLink');
 const loaderDownloadBtn = document.getElementById('loaderDownloadBtn');
 
 // Download Link
-const DOWNLOAD_LINK = "https://www.dropbox.com/scl/fi/02rejsoshk7u3r2i5mmso/ChilloutModLoader.exe?rlkey=ur0hgc4e4vp97s2zm0t4sxtla&st=uef8j71i&dl=1";
+const DOWNLOAD_LINK = "https://www.dropbox.com/scl/fi/sqjbd6jbwybgyvsvk0tqd/ChillOutLoader.exe?rlkey=u9ytwd05es91w93017nno6ts4&st=zsol6yku&dl=1";
 
 if (loaderDownloadBtn) {
     loaderDownloadBtn.href = DOWNLOAD_LINK;
@@ -501,3 +501,4 @@ searchInput.addEventListener('input', (e) => {
 document.addEventListener('DOMContentLoaded', () => {
     renderMods();
 });
+
